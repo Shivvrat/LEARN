@@ -1,0 +1,14 @@
+use
+<
+IO;
+>
+
+methods
+<
+
+>
+
+start
+<
+print("Hello World");
+>

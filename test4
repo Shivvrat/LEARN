@@ -1,0 +1,42 @@
+use <
+IO;
+>
+
+methods <
+
+factorial(integer x) {
+
+	integer fac = 1;
+	loop(x >= 1)
+	{
+		fac = fac * x;
+		x = x - 1;
+	}
+	return x;
+
+}
+
+day(integer hour) {
+
+	if (hour < 14) {
+    	greeting = "Good day";
+    } elif (hour < 20) {
+    	greeting = "Good evening";
+    } else {
+    	greeting = "Good night";
+	}
+	return greeting;
+
+}
+
+>
+
+start <
+
+integer a = 10, b = 20, c, d;
+c = factorial(a);
+d = day(b);
+print(c);
+print(d);
+
+>

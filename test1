@@ -1,0 +1,25 @@
+use
+<
+IO;
+>
+
+methods
+<
+factorial(integer x)
+{
+	integer fac = 1;
+	loop(x >= 1)
+	{
+		fac = fac * x;
+		x = x - 1;
+	}
+	return x;
+}
+>
+
+start
+<
+integer a = 10, b;
+b = factorial(a);
+print(b);
+>
